@@ -1,0 +1,31 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "rootDir": ".",
+        "sourceMap": true,
+        "declaration": false,
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "importHelpers": true,
+        "target": "es2015",
+        "module": "esnext",
+        "lib": ["es2020", "dom"],
+        "skipLibCheck": true,
+        "skipDefaultLibCheck": true,
+        "baseUrl": ".",
+        "paths": {
+            "@interview-crate/data-access": [
+                "libs/frontend/data-access/src/index.ts"
+            ],
+            "@interview-crate/fe/component-library": [
+                "libs/frontend/component-library/src/index.ts"
+            ],
+            "@interview-crate/fe/component-library/*": [
+                "libs/frontend/component-library/src/*"
+            ],
+            "@interview-crate/fe/shared": ["libs/frontend/shared/src/index.ts"]
+        }
+    },
+    "exclude": ["node_modules", "tmp"]
+}

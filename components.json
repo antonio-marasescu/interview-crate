@@ -1,0 +1,17 @@
+{
+    "$schema": "https://ui.shadcn.com/schema.json",
+    "style": "default",
+    "rsc": false,
+    "tsx": true,
+    "tailwind": {
+        "config": "apps/interview-manager-ui/tailwind.config.js",
+        "css": "apps/interview-manager-ui/src/styles.scss",
+        "baseColor": "zinc",
+        "cssVariables": true,
+        "prefix": ""
+    },
+    "aliases": {
+        "components": "@interview-crate/fe/component-library/lib/components",
+        "utils": "@interview-crate/fe/shared"
+    }
+}
