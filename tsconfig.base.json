@@ -15,6 +15,9 @@
         "skipDefaultLibCheck": true,
         "baseUrl": ".",
         "paths": {
+            "@interview-crate/api-interfaces": [
+                "libs/shared/api-interfaces/src/index.ts"
+            ],
             "@interview-crate/data-access": [
                 "libs/frontend/data-access/src/index.ts"
             ],
