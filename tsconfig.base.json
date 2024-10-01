@@ -15,10 +15,10 @@
         "skipDefaultLibCheck": true,
         "baseUrl": ".",
         "paths": {
-            "@interview-crate/api-interfaces": [
+            "@interview-crate/shared/api-interfaces": [
                 "libs/shared/api-interfaces/src/index.ts"
             ],
-            "@interview-crate/data-access": [
+            "@interview-crate/fe/data-access": [
                 "libs/frontend/data-access/src/index.ts"
             ],
             "@interview-crate/fe/component-library": [
