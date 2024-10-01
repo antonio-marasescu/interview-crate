@@ -4,6 +4,7 @@
     "license": "MIT",
     "scripts": {
         "serve:ui": "nx serve interview-manager-ui",
+        "lint": "nx run-many --target=lint",
         "prepare": "husky"
     },
     "private": true,
